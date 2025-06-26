@@ -2,7 +2,7 @@
 # My Phones Store App
 ### Halaman Beranda
 
-[![Tampilan Beranda]([images/beranda.png](https://github.com/GieKA21/finalppb/blob/main/images/beranda.png))]([images/beranda.png](https://github.com/GieKA21/finalppb/blob/main/images/beranda.png))
+[![Tampilan Beranda]([[https://github.com/GieKA21/finalppb/blob/main/images/beranda.png]])
 *Menampilkan daftar produk utama.*
 
 ### Halaman Login
