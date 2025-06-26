@@ -1,6 +1,6 @@
 ```markdown
 # My Phones Store App
-### Halaman Beranda
+### Halaman Beranda###
 
 [![Tampilan Beranda](images/beranda.png)](images/beranda.png)
 *Menampilkan daftar produk utama.*
