@@ -1,6 +1,7 @@
 ```markdown
 # My Phones Store App
 ### Halaman Beranda
+![Teks Alternatif](/images/beranda.png)
 [![tampilan](/images/beranda.png)]
 [![Tampilan Beranda]([[https://github.com/GieKA21/finalppb/blob/main/images/beranda.png]])]	/images/beranda.png
 *Menampilkan daftar produk utama.*
