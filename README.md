@@ -2,52 +2,52 @@
 # My Phones Store App
 ### Halaman Beranda###
 
-[![Tampilan Beranda](images/beranda.png)](images/beranda.png)
+![Beranda](/images/beranda.png)
 *Menampilkan daftar produk utama.*
 
 ### Halaman Login
 
-[![Tampilan Login](images/login.png)](images/login.png)
+![Tampilan Login](/images/login.png)
 *Pengguna dapat masuk ke akun mereka.*
 
 ### Semua Produk
 
-[![Daftar Semua Produk](images/allprodduk.png)](images/allprodduk.png)
+![Daftar Semua Produk](/images/allproduk.png)
 *Menampilkan daftar lengkap semua produk yang tersedia.*
 
 ### Panel Admin
 
-[![Panel Admin](images/adminpanel.png)](images/adminpanel.png)
+![Panel Admin](/images/adminpanel.png)
 *Dasbor untuk admin mengelola aplikasi.*
 
 ### Manajemen Produk
 
-[![Manajemen Produk](images/manajemenproduk.png)](images/manajemenproduk.png)
+![Manajemen Produk](/images/manajemenproduk.png)
 *Admin dapat menambah, mengedit, dan menghapus produk.*
 
 ### Konfirmasi Pesanan
 
-[![Konfirmasi Pesanan](images/konfirmpesanan.png)](images/konfirmpesanan.png)
+![Konfirmasi Pesanan](/images/konfirmpesanan.png)
 *Admin dapat melihat dan mengkonfirmasi pesanan pengguna.*
 
 ### Pengajuan Produk
 
-[![Pengajuan Produk](images/pengajuanproduk.png)](images/pengajuanproduk.png)
+![Pengajuan Produk](/images/pengajuanproduk.png)
 *Pengguna dapat mengajukan produk baru untuk ditinjau admin.*
 
 ### Tambah Produk
 
-[![Tambah Produk](images/addprodduk.png)](images/addprodduk.png)
+![Tambah Produk](/images/addproduk.png)
 *Formulir bagi admin untuk menambahkan produk baru.*
 
 ### Registrasi Pengguna
 
-[![Registrasi Pengguna](images/regist.png)](images/regist.png)
+![Registrasi Pengguna](/images/regist.png)
 *Pengguna baru dapat membuat akun.*
 
 ### Lupa Kata Sandi
 
-[![Lupa Kata Sandi](images/forgotpass.png)](images/forgotpass.png)
+![Lupa Kata Sandi](/images/forgotpass.png)
 *Opsi untuk pengguna yang lupa kata sandi mereka.*
 ## Deskripsi Proyek
 
