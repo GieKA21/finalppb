@@ -192,9 +192,6 @@ Kontribusi disambut baik! Jika Anda memiliki saran atau ingin meningkatkan proye
 5.  Push ke branch (`git push origin feature/AmazingFeature`).
 6.  Buka Pull Request.
 
-## Lisensi
-
-Proyek ini dilisensikan di bawah Lisensi MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
 
 ---
 
@@ -207,3 +204,4 @@ Proyek ini dilisensikan di bawah Lisensi MIT. Lihat file `LICENSE` untuk detail 
 ---
 ````
 "# finalppb" 
+/images/beranda.png
