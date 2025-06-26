@@ -1,8 +1,15 @@
 ```markdown
 # My Phones Store App
+<<<<<<< HEAD
 ### Halaman Beranda###
 
 ![Beranda](/images/beranda.png)
+=======
+### Halaman Beranda
+![Regist](https://github.com/GieKA21/finalppb/blob/c928d839d0dcc04f48435be6fa63141e8f88589a/Screenshot_2025.06.27_01.51.13.106.png)
+![tampilan](/images/beranda.png)
+[![Tampilan Beranda]([[https://github.com/GieKA21/finalppb/blob/main/images/beranda.png]])]	/images/beranda.png
+>>>>>>> 1567e31065b1ad8a89ede923bab91b650e0d1602
 *Menampilkan daftar produk utama.*
 
 ### Halaman Login
@@ -162,7 +169,7 @@ Ikuti langkah-langkah di bawah untuk mendapatkan salinan proyek yang berjalan di
 Untuk menguji fitur admin:
 
 * **Email Admin:** `admin@example.com`
-* **Password Admin:** `admin123`
+* **Password Admin:** `admin2172`
 
 ## Catatan Keamanan Penting (KRITIS)
 
@@ -192,18 +199,13 @@ Kontribusi disambut baik! Jika Anda memiliki saran atau ingin meningkatkan proye
 5.  Push ke branch (`git push origin feature/AmazingFeature`).
 6.  Buka Pull Request.
 
-## Lisensi
-
-Proyek ini dilisensikan di bawah Lisensi MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
 
 ---
 
 ## Tentang Penulis
 
-* **[Nama Lengkap Anda]** (Shadiq)
-* [Link Profil LinkedIn Anda (Opsional)]
-* [Link Profil GitHub Anda (Opsional)]
+* **[As Shadiq Nur]** (Shadiq)
+* [[instagram](https://www.instagram.com/hidhithere/)]
 
 ---
 ````
-"# finalppb" 
