@@ -1,7 +1,7 @@
 ```markdown
 # My Phones Store App
 ### Halaman Beranda
-![Regist](https://github.com/GieKA21/finalppb/blob/8db34a4e945dd14b0eabfe07f2d62a11eb592fa6/images/addproduk.png)
+![Regist](https://github.com/GieKA21/finalppb/blob/c928d839d0dcc04f48435be6fa63141e8f88589a/Screenshot_2025.06.27_01.51.13.106.png)
 ![tampilan](/images/beranda.png)
 [![Tampilan Beranda]([[https://github.com/GieKA21/finalppb/blob/main/images/beranda.png]])]	/images/beranda.png
 *Menampilkan daftar produk utama.*
