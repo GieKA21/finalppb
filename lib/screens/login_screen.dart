@@ -69,7 +69,7 @@ class _LoginScreenState extends State<LoginScreen>
       print('Attempting login for: Email: $email, Password: $password');
 
       // --- LOGIKA LOGIN ADMIN (Hardcoded - PERHATIAN KRITIS: TIDAK AMAN UNTUK PRODUKSI) ---
-      if (email == 'admin@example.com' && password == 'admin') {
+      if (email == 'admin@example.com' && password == 'admin2172') {
         _authManager.login(0, email, 'Admin'); // ID 0 untuk admin, email admin, nama 'Admin'
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text('Login Admin Berhasil!')),
