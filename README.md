@@ -162,7 +162,7 @@ Ikuti langkah-langkah di bawah untuk mendapatkan salinan proyek yang berjalan di
 Untuk menguji fitur admin:
 
 * **Email Admin:** `admin@example.com`
-* **Password Admin:** `admin123`
+* **Password Admin:** `admin2172`
 
 ## Catatan Keamanan Penting (KRITIS)
 
@@ -197,11 +197,8 @@ Kontribusi disambut baik! Jika Anda memiliki saran atau ingin meningkatkan proye
 
 ## Tentang Penulis
 
-* **[Nama Lengkap Anda]** (Shadiq)
-* [Link Profil LinkedIn Anda (Opsional)]
-* [Link Profil GitHub Anda (Opsional)]
+* **[As Shadiq Nur]** (Shadiq)
+* [[instagram](https://www.instagram.com/hidhithere/)]
 
 ---
 ````
-"# finalppb" 
-/images/beranda.png
