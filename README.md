@@ -1,12 +1,12 @@
 ```markdown
 # Second Phone Store
-## Deskripsi Proyek
+# Deskripsi Proyek
 
 "My Phones Store" adalah aplikasi mobile e-commerce sederhana yang dibangun dengan Flutter. Aplikasi ini mensimulasikan fungsionalitas dasar sebuah toko ponsel, memungkinkan pengguna untuk menelusuri produk, mendaftar/masuk, mengelola profil mereka, bahkan mengajukan produk baru. Admin memiliki kontrol penuh atas manajemen produk dan konfirmasi pesanan/pengajuan.
 
 Proyek ini dibangun sebagai demonstrasi berbagai konsep pengembangan aplikasi Flutter, termasuk manajemen state lokal, interaksi database lokal (SQLite), navigasi, autentikasi dasar, dan alur kerja multi-peran (pengguna & admin).
 
-## Fitur Utama
+# Fitur Utama
 
 Aplikasi ini mencakup fungsionalitas inti berikut:
 
@@ -38,7 +38,7 @@ Aplikasi ini mencakup fungsionalitas inti berikut:
     * Validasi form dasar untuk input pengguna.
     * Navigasi Drawer yang intuitif.
 
-## Tumpukan Teknologi
+# Tumpukan Teknologi
 
 * **Flutter:** Framework UI untuk membangun aplikasi mobile native.
 * **Dart:** Bahasa pemrograman yang digunakan oleh Flutter.
@@ -47,7 +47,7 @@ Aplikasi ini mencakup fungsionalitas inti berikut:
 * **image_picker:** Plugin Flutter untuk memilih gambar dari galeri atau kamera.
 * **path_provider:** Plugin Flutter untuk mendapatkan lokasi umum di sistem file perangkat.
 
-## Struktur Proyek
+# Struktur Proyek
 
 Struktur direktori `lib/` diatur secara modular untuk pemisahan tanggung jawab:
 
@@ -62,18 +62,18 @@ lib/
 
 ````
 
-## Cara Menjalankan Aplikasi
+# Cara Menjalankan Aplikasi
 
 Ikuti langkah-langkah di bawah untuk mendapatkan salinan proyek yang berjalan di mesin lokal Anda untuk tujuan pengembangan dan pengujian.
 
-### Prasyarat
+# Prasyarat
 
 * [Flutter SDK](https://flutter.dev/docs/get-started/install) terinstal.
 * [Android Studio](https://developer.android.com/studio) terinstal (untuk AVD Manager dan `adb`).
 * Pastikan `adb` sudah ditambahkan ke variabel PATH sistem Anda.
 * Pastikan Anda memiliki koneksi internet untuk mengunduh dependensi.
 
-### Instalasi
+# Instalasi
 
 1.  **Kloning Repositori:**
     ```bash
@@ -106,21 +106,21 @@ Ikuti langkah-langkah di bawah untuk mendapatkan salinan proyek yang berjalan di
         ```
     * Ini akan menginstal dan menjalankan aplikasi dalam mode debug.
 
-### Kredensial Login Dev-Only
+# Kredensial Login Dev-Only
 
 Untuk menguji fitur admin:
 
 * **Email Admin:** `admin@example.com`
 * **Password Admin:** `admin2172`
 
-## Catatan Keamanan Penting (KRITIS)
+# Catatan Keamanan Penting (KRITIS)
 
 Proyek ini dibangun untuk tujuan demonstrasi dan pembelajaran. Sebagai hasilnya, ada beberapa **kerentanan keamanan yang disengaja** yang **HARUS diperbaiki** sebelum aplikasi ini digunakan dalam lingkungan produksi nyata:
 
 * **Password Disimpan Tanpa Hash:** Saat ini, password pengguna dan admin disimpan dalam bentuk `plain text` di database SQLite lokal. Ini adalah praktik yang sangat tidak aman. Untuk produksi, password harus selalu di-hash (misalnya, menggunakan BCrypt atau Argon2) sebelum disimpan, dan diverifikasi dengan membandingkan hash yang dimasukkan pengguna.
 * **Login Admin Hardcode:** Kredensial admin hardcode di dalam kode. Ini harus diganti dengan sistem autentikasi yang lebih aman yang melibatkan database dan, idealnya, otorisasi berbasis peran yang lebih canggih.
 
-## Pengembangan Selanjutnya (Potensi Peningkatan)
+# Pengembangan Selanjutnya (Potensi Peningkatan)
 
 * **Implementasi Hashing Password:** Integrasikan library hashing (misalnya `argon2_ffi_base` atau `bcrypt`) untuk mengamankan password.
 * **Backend Cloud:** Migrasikan penyimpanan data produk, pesanan, dan bahkan pengguna ke layanan backend cloud (misalnya Firebase Firestore/Authentication, AWS Amplify, atau REST API kustom) untuk skalabilitas, keamanan, dan fungsionalitas sinkronisasi data antar perangkat.
@@ -130,7 +130,7 @@ Proyek ini dibangun untuk tujuan demonstrasi dan pembelajaran. Sebagai hasilnya,
 * **Penanganan Error yang Lebih Robust:** Implementasikan penanganan error global dan umpan balik pengguna yang lebih baik untuk skenario yang tidak terduga.
 * **Desain UI/UX Lanjutan:** Perbaikan visual dan pengalaman pengguna yang lebih kaya.
 
-## Kontribusi
+# Kontribusi
 
 Kontribusi disambut baik! Jika Anda memiliki saran atau ingin meningkatkan proyek ini, silakan:
 
@@ -144,7 +144,7 @@ Kontribusi disambut baik! Jika Anda memiliki saran atau ingin meningkatkan proye
 
 ---
 
-## Tentang Penulis
+# Tentang Penulis
 
 * **[As Shadiq Nur]** (Shadiq)
 * [[instagram](https://www.instagram.com/hidhithere/)]
