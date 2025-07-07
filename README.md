@@ -1,8 +1,5 @@
 # My Phones Store App
 
-![App Screenshot Placeholder](https://via.placeholder.com/800x450?text=My+Phones+Store+App+Screenshots)
-*(Ganti placeholder ini dengan tangkapan layar aplikasi Anda yang sebenarnya! Ambil beberapa tangkapan layar menarik dari layar utama, detail produk, login, ajukan produk, dan panel admin.)*
-
 Berikut adalah beberapa tangkapan layar aplikasi:
 
 ### Halaman Beranda
@@ -14,46 +11,55 @@ Berikut adalah beberapa tangkapan layar aplikasi:
 ### Halaman Login
 
 ![Tampilan Login](images/login.png)
+
 *Pengguna dapat masuk ke akun mereka.*
 
 ### Semua Produk
 
 ![Daftar Semua Produk](images/allprodduk.png)
+
 *Menampilkan daftar lengkap semua produk yang tersedia.*
 
 ### Panel Admin
 
 ![Panel Admin](images/adminpanel.png)
+
 *Dasbor untuk admin mengelola aplikasi.*
 
 ### Manajemen Produk
 
 ![Manajemen Produk](images/manajemenproduk.png)
+
 *Admin dapat menambah, mengedit, dan menghapus produk.*
 
 ### Konfirmasi Pesanan
 
 ![Konfirmasi Pesanan](images/konfirmpesanan.png)
+
 *Admin dapat melihat dan mengkonfirmasi pesanan pengguna.*
 
 ### Pengajuan Produk
 
 ![Pengajuan Produk](images/pengajuanproduk.png)
+
 *Pengguna dapat mengajukan produk baru untuk ditinjau admin.*
 
 ### Tambah Produk
 
 ![Tambah Produk](images/addprodduk.png)
+
 *Formulir bagi admin untuk menambahkan produk baru.*
 
 ### Registrasi Pengguna
 
 ![Registrasi Pengguna](images/regist.png)
+
 *Pengguna baru dapat membuat akun.*
 
 ### Lupa Kata Sandi
 
 ![Lupa Kata Sandi](images/forgotpass.png)
+
 *Opsi untuk pengguna yang lupa kata sandi mereka.*
 
 ---
