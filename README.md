@@ -8,6 +8,7 @@ Berikut adalah beberapa tangkapan layar aplikasi:
 ### Halaman Beranda
 
 ![Tampilan Beranda](images/beranda.png)
+
 *Menampilkan daftar produk utama.*
 
 ### Halaman Login
