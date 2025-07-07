@@ -77,11 +77,9 @@ Ikuti langkah-langkah di bawah untuk mendapatkan salinan proyek yang berjalan di
 
 1.  **Kloning Repositori:**
     ```bash
-    git clone [https://github.com/GieKA21/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-    cd YOUR_REPO_NAME
+    git clone https://github.com/GieKA21/finalppb.git
+    cd finalppb.git
     ```
-    *(Ganti `YOUR_USERNAME/YOUR_REPO_NAME` dengan detail repositori Anda yang sebenarnya)*
-
 2.  **Dapatkan Dependensi:**
     ```bash
     flutter pub get
