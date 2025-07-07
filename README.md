@@ -77,7 +77,7 @@ Ikuti langkah-langkah di bawah untuk mendapatkan salinan proyek yang berjalan di
 
 1.  **Kloning Repositori:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    git clone [https://github.com/GieKA21/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
     cd YOUR_REPO_NAME
     ```
     *(Ganti `YOUR_USERNAME/YOUR_REPO_NAME` dengan detail repositori Anda yang sebenarnya)*
