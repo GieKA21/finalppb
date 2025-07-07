@@ -124,3 +124,109 @@ Aplikasi ini mencakup fungsionalitas inti berikut:
 ## Struktur Proyek
 
 Struktur direktori `lib/` diatur secara modular untuk pemisahan tanggung jawab:
+
+lib/
+├── models/             # Definisi kelas data (Product, User, Order, ProductSubmission)
+├── pages/              # Halaman-halaman yang lebih spesifik (ProductDetailScreen)
+├── screens/            # Layar-layar utama aplikasi (Login, Register, Home, Admin Panel, Profile, dll.)
+├── services/           # Logika bisnis dan interaksi database (DatabaseHelper, ProductService, OrderService, ProductSubmissionService, AuthManager)
+└── main.dart           # Titik masuk utama aplikasi
+
+---
+
+## Cara Menjalankan Aplikasi
+
+Ikuti langkah-langkah di bawah untuk mendapatkan salinan proyek yang berjalan di mesin lokal Anda untuk tujuan pengembangan dan pengujian.
+
+### Prasyarat
+
+* [Flutter SDK](https://flutter.dev/docs/get-started/install) terinstal.
+* [Android Studio](https://developer.android.com/studio) terinstal (untuk AVD Manager dan `adb`).
+* Pastikan `adb` sudah ditambahkan ke variabel PATH sistem Anda.
+* Pastikan Anda memiliki koneksi internet untuk mengunduh dependensi.
+
+### Instalasi
+
+1.  **Kloning Repositori:**
+    ```bash
+    git clone [https://github.com/GieKA21/finalppb.git](https://github.com/GieKA21/finalppb.git)
+    cd finalppb.git
+    ```
+
+2.  **Dapatkan Dependensi:**
+    ```bash
+    flutter pub get
+    ```
+
+3.  **Buat Emulator Android (jika belum ada):**
+    * Buka Android Studio.
+    * Pergi ke `Tools > Device Manager` (atau klik ikon AVD Manager di toolbar).
+    * Buat "Virtual Device" baru (misalnya Pixel 7 dengan API 30+).
+
+4.  **Hapus Aplikasi Lama (Penting untuk Skema DB):**
+    Jika Anda sebelumnya telah menginstal versi aplikasi ini atau versi lain dengan nama paket yang sama, sangat disarankan untuk **menghapus instalasi lama secara bersih** agar database dibuat ulang dengan skema terbaru:
+    * Secara manual: Tekan lama ikon aplikasi di emulator/perangkat dan pilih "Uninstall".
+    * Via `adb`:
+        ```bash
+        adb uninstall com.example.final_project # Ganti dengan applicationId Anda di android/app/build.gradle
+        ```
+
+5.  **Jalankan Aplikasi di Emulator/Perangkat:**
+    * Mulai emulator Android Anda dari AVD Manager atau pastikan perangkat fisik terhubung via USB.
+    * Dari terminal di root proyek Anda:
+        ```bash
+        flutter run
+        ```
+    * Ini akan menginstal dan menjalankan aplikasi dalam mode debug.
+
+---
+
+## Kredensial Login Dev-Only
+
+Untuk menguji fitur admin:
+
+* **Email Admin:** `admin@example.com`
+* **Password Admin:** `admin2172`
+
+---
+
+## Catatan Keamanan Penting (KRITIS)
+
+Proyek ini dibangun untuk tujuan demonstrasi dan pembelajaran. Sebagai hasilnya, ada beberapa **kerentanan keamanan yang disengaja** yang **HARUS diperbaiki** sebelum aplikasi ini digunakan dalam lingkungan produksi nyata:
+
+* **Password Disimpan Tanpa Hash:** Saat ini, password pengguna dan admin disimpan dalam bentuk `plain text` di database SQLite lokal. Ini adalah praktik yang sangat tidak aman. Untuk produksi, password harus selalu di-hash (misalnya, menggunakan BCrypt atau Argon2) sebelum disimpan, dan diverifikasi dengan membandingkan hash yang dimasukkan pengguna.
+* **Login Admin Hardcode:** Kredensial admin hardcode di dalam kode. Ini harus diganti dengan sistem autentikasi yang lebih aman yang melibatkan database dan, idealnya, otorisasi berbasis peran yang lebih canggih.
+
+---
+
+## Pengembangan Selanjutnya (Potensi Peningkatan)
+
+* **Implementasi Hashing Password:** Integrasikan library hashing (misalnya `argon2_ffi_base` atau `bcrypt`) untuk mengamankan password.
+* **Backend Cloud:** Migrasikan penyimpanan data produk, pesanan, dan bahkan pengguna ke layanan backend cloud (misalnya Firebase Firestore/Authentication, AWS Amplify, atau REST API kustom) untuk skalabilitas, keamanan, dan fungsionalitas sinkronisasi data antar perangkat.
+* **Notifikasi Real-time:** Implementasikan notifikasi push (Firebase Cloud Messaging) untuk update pesanan atau pengajuan produk.
+* **Fitur Keranjang Belanja:** Kembangkan fungsionalitas keranjang belanja dan alur checkout.
+* **Filter & Sorting Lanjutan:** Tambahkan opsi filter dan sorting produk yang lebih detail.
+* **Penanganan Error yang Lebih Robust:** Implementasikan penanganan error global dan umpan balik pengguna yang lebih baik untuk skenario yang tidak terduga.
+* **Desain UI/UX Lanjutan:** Perbaikan visual dan pengalaman pengguna yang lebih kaya.
+
+---
+
+## Kontribusi
+
+Kontribusi disambut baik! Jika Anda memiliki saran atau ingin meningkatkan proyek ini, silakan:
+
+1.  Fork repositori ini.
+2.  Buat branch fitur baru (`git checkout -b feature/AmazingFeature`).
+3.  Lakukan perubahan Anda.
+4.  Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`).
+5.  Push ke branch (`git push origin feature/AmazingFeature`).
+6.  Buka Pull Request.
+
+---
+
+## Tentang Penulis
+
+* **As Shadiq Nur** (Shadiq)
+* [Instagram](https://www.instagram.com/hidhithere/)
+
+---
