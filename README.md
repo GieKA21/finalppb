@@ -149,8 +149,8 @@ Ikuti langkah-langkah di bawah untuk mendapatkan salinan proyek yang berjalan di
 
 1.  **Kloning Repositori:**
     ```bash
-    git clone [https://github.com/GieKA21/finalppb.git](https://github.com/GieKA21/finalppb.git)
-    cd finalppb.git
+    git clone https://github.com/GieKA21/final_project.git
+    cd final_project.git
     ```
 
 2.  **Dapatkan Dependensi:**
